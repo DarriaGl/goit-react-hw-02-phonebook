@@ -7,8 +7,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('./images/phone-min.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
+input:active {
+  outline: none;
+}
+button {
+  border: 1px solid olive;
+}
+button:hover {
+  transform: scale(1.1);
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
